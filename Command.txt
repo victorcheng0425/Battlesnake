@@ -1,0 +1,18 @@
+BattleSnake:
+
+heroku apps:destroy
+heroku logs --tail
+
+git add .
+git commit -m "comment"
+git push heroku master
+
+heroku git:clone -a boiling-citadel-63525
+
+heroku login
+heroku open
+
+Other Snake:
+Git Bisect
+had
+kelele-shaye / Nessy
